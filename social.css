@@ -37,7 +37,7 @@ ul, li{
   font-size: 37px;
     font-weight: 20px;
     color: rgb(248, 248, 248);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Roboto', sans-serif;
     transition: 500ms;
    
 }
@@ -62,8 +62,8 @@ a{
     position: relative;
    align-items: center;
     margin-top: 10px;
-    color: bisque;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
     
 }
 h1{
@@ -73,7 +73,7 @@ h1{
     display: flex;
     padding-top: 10px;
     color: bisque;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 .btn-title{
@@ -82,6 +82,7 @@ h1{
     justify-content: center;display: flex;
     color: bisque;
     padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
 }
 .btn-main{
     display: flex;
@@ -178,7 +179,7 @@ transform: scale(1.5);
     .title-bust{
         font-size: 50px;
         color: bisque;
-        font-family: monospace;
+        font-family: 'Roboto', sans-serif;
         justify-content: center;
         align-items: center;
         display: flex;
