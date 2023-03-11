@@ -1,0 +1,306 @@
+body{
+    /* background: url(12345.jpg) no-repeat center /cover ; */
+    /* background: black; */
+    margin: 0;
+    background: url(sd.jpg) no-repeat center /cover ;
+    max-width: 100%;
+    width: 100%;
+   height: 1200px;
+   height: 100%;
+   z-index: 4;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, li{
+  text-decoration: none;
+  list-style: none;
+}
+.nav__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 18px;
+}
+.btn-link{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.nav-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 8px;
+  font-size: 37px;
+    font-weight: 20px;
+    color: rgb(248, 248, 248);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 500ms;
+   
+}
+.nav-info:hover{
+  background: #eee8e8d2;
+  color: black
+}
+h1, h2{
+  font-family: inherit;
+}
+
+a{
+    text-decoration: none;
+    font-family: monospace;
+}
+
+.btn-text{
+    font-size: 50px;
+    font-weight: 20px;
+   
+    display: flex;
+    position: relative;
+   align-items: center;
+    margin-top: 10px;
+    color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+h1{
+    font-size: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+    color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.btn-title{
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;display: flex;
+    color: bisque;
+    padding-top: 15px;
+}
+.btn-main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 15px;
+    /* max-width: 500px; */
+    border-radius: 15px;
+}
+.btn{
+   margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 800px;
+    cursor: pointer;
+    padding: 20px 40px;
+    gap: 10px;
+    outline: hidden;
+    border-radius: 5px solid ;
+    font-size: 30px;
+    color: black;
+    border: 5px solid;
+    background-color: rgba(28,28,28,0);
+    border-radius: 15px;
+    text-align: center;
+    transition: 500ms;
+   
+}
+.a4{
+    font-size: 40px;
+    transition: 500ms;
+    animation: animate 1s linear infinite;
+    align-items: center;
+}
+.a4:hover {
+    /* transform: scale(1.5); */
+    transform: rotate(360deg) scale(1.5) ;
+    animation-duration: 500ms ;
+}
+.btn a4:hover{
+transform: scale(1.5);
+
+}
+.btn a4{
+    transition: 500ms;
+  
+  
+}
+
+/* .btn a {
+    
+    transition: all 0.5s ease;
+    animation: scale 1s linear infinite;
+  }
+  
+  @keyframes scale {
+   
+    from {
+      transform: scale(1.5);
+      
+    }
+  } */
+@keyframes glowing {
+    0% { background-color: #ccb7b7; box-shadow: 0 0 5px #a32727 }
+    50% { background-color: #dcdfe59c; box-shadow: 0 0 20px #761a1a; }
+    100% { background-color: #ecdada; box-shadow: 0 0 5px #a03030; }
+    }
+    .btn {
+    animation: glowing 1500ms infinite ;
+    
+    }
+    .a4 {
+        animation: 1s linear 0s normal none infinite running rot;
+        -webkit-animation: 1s linear 0s normal none infinite running rot;
+        /* width: 100px; */
+      }
+      @keyframes a4 {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    .bust__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .title-bust{
+        font-size: 50px;
+        color: bisque;
+        font-family: monospace;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    /* Transition  */
+    .btn-main a{
+      transition: 500ms;
+    }
+    .btn-main a:hover{
+      transform: scale(1.2);
+    }
+
+
+    .pers{
+      margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 800px;
+    cursor: pointer;
+    padding: 20px 40px;
+    gap: 10px;
+    outline: hidden;
+    border-radius: 5px solid ;
+    font-size: 30px;
+    color: black;
+    border: 5px solid;
+    background-color: rgba(28,28,28,0);
+    border-radius: 15px;
+    text-align: center;
+    transition: 500ms;
+
+    }
+    .pers{
+      transition: 500ms;
+      margin-top: 15px;
+      margin-bottom: 18px;
+    }
+    .pers:hover{
+      transform: scale(1.2);
+    }
+
+
+
+    /* Media */
+
+    @media(max-width: 960px){
+        .btn{
+     /* display: flex;
+     
+     max-width: 600px;
+     padding: 10px 30px; */
+     max-width: 100vh;
+     display: flex;
+     height: 60px;
+     justify-content: center;
+            } 
+    }
+    @media(max-width: 700px){
+    .nav__content{
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    h1{
+      font-size: 50px;
+      text-align: center;
+    }
+    .btn-title{
+      font-size: 45px;
+      text-align: center;
+    }
+    .title-bust{
+      font-size: 45px;
+      justify-content: center;
+      text-align: center;
+    }
+    }
+     @media(max-width: 865px){
+      .title-bust{
+        font-size: 40px;
+      }
+     }
+     @media(max-width: 730px){
+          .btn{
+            max-width: 100vh;
+            display: flex;
+            height: 60px;
+            justify-content: center;
+            gap: none;
+
+                }
+               
+     }
+     @media(max-width: 800px){
+      .nav__content{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+     }
+     }
+     @media(max-width: 520px){
+      .btn-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      h1{
+        font-size: 45px;
+      }
+      .btn{
+        max-width: 100vh;
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        gap: none;
+        width: 280px;
+
+            }
+     }
+    
+  
+    
