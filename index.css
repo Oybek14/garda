@@ -41,7 +41,7 @@ header{
     color: white;
     font-family: 'Roboto', sans-serif;
     transition: 500ms;
-    transform: scale(1.5);
+    /* transform: scale(1.5); */
 }
 .header__home:hover{
     color: black;
@@ -264,15 +264,15 @@ header{
      .main__info-title{
         font-size: 25px;
      }
-     .header__list{
+     /* .header__list{
         display: flex;
         flex-direction: column;
         gap: 10px;
         
-     }
-     .header__home{
+     } */
+     /* .header__home{
         font-size: 15px;
-     }
+     } */
 }
 @media(max-width: 490px){
     .header__home{
@@ -283,5 +283,34 @@ header{
     }
     .btn-text img{
        width: 34px;
+    }
+}
+@media(max-width: 416px){
+    .header__home{
+        font-size: 17px;
+        /* display: flex;
+        padding: 0px;
+        padding-right: 20px; */
+    }
+    /* .header__list{
+        display: flex;
+        justify-content: space-between;
+        
+       
+    } */
+    .btn-text{
+        font-size: 30px;
+    }
+}
+@media(max-width: 382px){
+    .header__list{
+        display: flex;
+        flex-direction: column;
+        font-size: 17px;
+      
+    }
+    .header__home{
+        font-size: 17px;
+        padding-right: 6px;
     }
 }
