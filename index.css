@@ -320,7 +320,7 @@ header{
         font-size: 30px;
     }
 }
-@media(max-width: 382px){
+@media(max-width: 393px){
     .header__list{
         display: flex;
         flex-direction: column;

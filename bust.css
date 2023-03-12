@@ -173,5 +173,11 @@ background: white;
         font-size: 30px;
     }
 }
+@media(max-width: 391px){
+    .header__home{
+        font-size: 22px;
+    }
+}
+
 
    
