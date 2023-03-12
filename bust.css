@@ -143,7 +143,10 @@ background: white;
         font-size: 38px;
     }
     .btn-text img{
-        width: 40px;
+        width: 120px;
+        align-items: center;
+       
+        display: flex;
     }
 }
 @media(max-width: 552px){
